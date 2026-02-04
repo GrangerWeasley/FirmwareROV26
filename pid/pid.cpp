@@ -63,7 +63,6 @@ public:
         filtered_derivative = 0;
     }
 
-    // setpoint and measurement bec i implemented derivative on measurement to insure smooth response
     double update(double setpoint, double measurement, double dt)
     {
         double error = setpoint - measurement;
